@@ -16,26 +16,24 @@ namespace TechnicalAssestmentEstebanHidalgo
             LastNameComparer lastNameComparer = new LastNameComparer();
 
             // Check if a file path was provided as a command-line argument
-            /* if (args.Length > 0)
+             if (args.Length > 0)
              {
                  // Get the file path from the command-line argument
-                 string filePath = args[0];*/
+                 string filePath = args[0];
 
-            //Console.Write("Please enter the path of the file, use the following format 'C:\\\\...:' ");
-
-            string stringOfNames = readDataFromFile("C:\\unsorted-names-list.txt");
-            string[] listOfNames = convertStringToArray(stringOfNames);
+                string stringOfNames = readDataFromFile(filePath);
+                string[] listOfNames = convertStringToArray(stringOfNames);
             
-            Array.Sort(listOfNames, lastNameComparer);
-            writeDataToFile(listOfNames, "sorted-names-list.txt");
+                Array.Sort(listOfNames, lastNameComparer);
+                writeDataToFile(listOfNames, "sorted-names-list.txt");
 
-            /*}
-            else
-            {
+             }
+             else
+             {
                 Console.WriteLine("Please provide a file path as a command-line argument.");
-            }*/
+             }
 
-            Console.ReadLine();
+                Console.ReadLine();
         }
 
         public static string readDataFromFile(string filePath)
