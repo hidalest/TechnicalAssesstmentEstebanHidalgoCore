@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TechnicalAssestmentEstebanHidalgo
 {
-    class LastNameComparer : IComparer<string>
+    public class LastNameComparer : IComparer<string>
     {
         public int Compare(string x, string y)
         {

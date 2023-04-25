@@ -5,7 +5,7 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TechnicalAssesstmentEstebanHidalgoCore", "TechnicalAssesstmentEstebanHidalgoCore\TechnicalAssesstmentEstebanHidalgoCore.csproj", "{3C7BE744-B916-4A43-A5A2-0E73A8C0BAD1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestTechnicalAssesstment.UnitTests", "TestTechnicalAssesstment.UnitTests\TestTechnicalAssesstment.UnitTests.csproj", "{D6C49AC3-FAD2-4688-BB94-72C0D6BDF553}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.TechnicalAssesstments.UnitTests", "TestProject1\Test.TechnicalAssesstments.UnitTests.csproj", "{24E5D327-5120-48BD-BE26-12400698ACCF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{3C7BE744-B916-4A43-A5A2-0E73A8C0BAD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C7BE744-B916-4A43-A5A2-0E73A8C0BAD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C7BE744-B916-4A43-A5A2-0E73A8C0BAD1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D6C49AC3-FAD2-4688-BB94-72C0D6BDF553}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D6C49AC3-FAD2-4688-BB94-72C0D6BDF553}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D6C49AC3-FAD2-4688-BB94-72C0D6BDF553}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D6C49AC3-FAD2-4688-BB94-72C0D6BDF553}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24E5D327-5120-48BD-BE26-12400698ACCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24E5D327-5120-48BD-BE26-12400698ACCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24E5D327-5120-48BD-BE26-12400698ACCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24E5D327-5120-48BD-BE26-12400698ACCF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
