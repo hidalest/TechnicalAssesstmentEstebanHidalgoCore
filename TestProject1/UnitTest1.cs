@@ -28,18 +28,17 @@ namespace TestTechnicalAssesstment.UnitTests
             // Clean up the test file
             File.Delete(filePath);
         }
-
-
         [TestMethod]
-        public void TestSortListOfNameAndWriteOnFile_checkForSortedNamesOnTheSortedFile()
+        public void convertStringToArray_ShouldConvertThePassingStringValuesIntoAnArray_ArrayOfStrings()
         {
-            string filePath = "unsorted-names-list.txt";
-            SortListOfNameAndWriteOnFile sortObj = new SortListOfNameAndWriteOnFile(filePath);
+            string nameStrings = "Esteban Hidalgo\nSofia Hidalgo";
 
-            // Verify that the output file exists and contains expected data
-            string[] expected = { "Alvarez, Marin", "Archer, Adonis Julius", "Bentley, Beau Tristan", "Clarke, Hunter Uriah Mathew", "Gardner, Leo", "Lewis, Vaughn", "Lindsey, London", "Lopez, Mikayla", "Parsons, Janet", "Ritter, Frankie Conner", "Yoder, Shelby Nathan" };
-            string[] actual = File.ReadAllLines("sorted-names-list.txt");
-            Assert.AreEqual(expected, actual);
+            string[] expectedResult = { "Esteban Hidalgo", "Sofia Hidalgo" };
+
+            string[] result = SortListOfNameAndWriteOnFile.convertStringToArray(nameStrings);
+
+            CollectionAssert.AreEqual(expectedResult, result);
         }
+
     }
 }
