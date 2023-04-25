@@ -7,7 +7,6 @@ and may have up to 3 given names.
 
 Given a a file called unsorted-names-list.txt containing the following list of names;
 
-````
 Janet Parsons
 Vaughn Lewis
 Adonis Julius Archer
@@ -19,7 +18,7 @@ Leo Gardner
 Hunter Uriah Mathew Clarke
 Mikayla Lopez
 Frankie Conner Ritter
-```
+
 
 Executing the program in the following way;
 ```
