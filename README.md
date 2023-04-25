@@ -54,3 +54,8 @@ and a file in the working directory called sorted-names-list.txt containing the 
 - It should write/overwrite the sorted list of names to a file called sorted-names-list.txt.
 - Unit tests should exist.
 - Minimal, practical documentation should exist
+
+## Instructions
+1. When cloning the project, please open it with Visual Studio and compile. 
+2. Go to the Project Folder and add the unsorted-names-list.txt (in the parent folder of this project) to the folder \TechnicalAssesstmentEstebanHidalgoCore\TechnicalAssesstmentEstebanHidalgoCore\bin\Debug\net6.0
+3. Open CMD and go to that path and run the command TechnicalAssesstmentEstebanHidalgoCore.exe unsorted-names-list.txt
