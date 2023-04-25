@@ -7,7 +7,8 @@ and may have up to 3 given names.
 
 Given a a file called unsorted-names-list.txt containing the following list of names;
 
-````Janet Parsons
+````
+Janet Parsons
 Vaughn Lewis
 Adonis Julius Archer
 Shelby Nathan Yoder
@@ -17,13 +18,17 @@ Beau Tristan Bentley
 Leo Gardner
 Hunter Uriah Mathew Clarke
 Mikayla Lopez
-Frankie Conner Ritter```
+Frankie Conner Ritter
+```
 
 Executing the program in the following way;
-```name-sorter ./unsorted-names-list.txt```
+```
+name-sorter ./unsorted-names-list.txt
+```
 
 Should result the sorted names to screen;
-```Marin Alvarez
+```
+Marin Alvarez
 Adonis Julius Archer
 Beau Tristan Bentley
 Hunter Uriah Mathew Clarke
@@ -33,7 +38,8 @@ London Lindsey
 Mikayla Lopez
 Janet Parsons
 Frankie Conner Ritter
-Shelby Nathan Yoder```
+Shelby Nathan Yoder
+```
 
 and a file in the working directory called sorted-names-list.txt containing the sorted names.
 
@@ -47,4 +53,3 @@ and a file in the working directory called sorted-names-list.txt containing the 
 - It should write/overwrite the sorted list of names to a file called sorted-names-list.txt.
 - Unit tests should exist.
 - Minimal, practical documentation should exist
-````
