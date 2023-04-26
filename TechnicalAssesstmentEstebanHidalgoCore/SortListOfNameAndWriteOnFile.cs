@@ -23,7 +23,7 @@ namespace TechnicalAssesstmentEstebanHidalgoCore
         }
 
         // Receives an array of string and another parameter for the file name.
-        // Calls the StreamReader class to read data in the file passed as filePath.
+        // Calls the StreamReader object to read data in the file passed as filePath.
         public static string readDataFromFile(string filePath)
         {
             try
@@ -41,7 +41,7 @@ namespace TechnicalAssesstmentEstebanHidalgoCore
             }
         }
         // Receives an array of string and another parameter for the file name.
-        // Calls the StreamWriter class to write each name of the array of names in the file passed as FileName.
+        // Calls the StreamWriter object to write each name of the array of names in the file passed as FileName.
         public static void writeDataToFile(string[] arrayOfNames, string fileName)
         {
             StreamWriter writter = new StreamWriter(fileName);
