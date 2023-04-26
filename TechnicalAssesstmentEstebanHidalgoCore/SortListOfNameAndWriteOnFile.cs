@@ -4,7 +4,7 @@ namespace TechnicalAssesstmentEstebanHidalgoCore
 {
     public class SortListOfNameAndWriteOnFile
     {
-        public SortListOfNameAndWriteOnFile(string filePath)
+        public static void SortListOfNameAndWriteOnFileAction(string filePath)
         {
             LastNameComparer lastNameComparer = new LastNameComparer();
 

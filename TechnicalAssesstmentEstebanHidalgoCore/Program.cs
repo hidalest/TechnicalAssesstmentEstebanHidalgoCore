@@ -13,7 +13,7 @@ namespace TechnicalAssestmentEstebanHidalgoCore
             {
                 // Get the file path from the command-line argument
                 string filePath = args[0];
-                SortListOfNameAndWriteOnFile sortFile = new SortListOfNameAndWriteOnFile(filePath);
+                SortListOfNameAndWriteOnFile.SortListOfNameAndWriteOnFileAction(filePath);
             }
             else
             {
